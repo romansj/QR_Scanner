@@ -1,0 +1,12 @@
+rootProject.name = "QR Scanner"
+include ':app'
+
+
+include ':app:sharing'
+project(':app:sharing').projectDir = file('C:\\AndroidProjects\\CommonTools\\sharing')
+
+include ':app:file'
+project(':app:file').projectDir = file('C:\\AndroidProjects\\CommonTools\\file')
+
+include ':app:common'
+project(':app:common').projectDir = file('C:\\AndroidProjects\\CommonTools\\common')
